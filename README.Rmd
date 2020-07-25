@@ -28,3 +28,12 @@ O objetivo do pacote tjpr é baixar, limpar, organizar e analisar dados judiciai
 devtools::install_github("jjesusfilho/tjpr")
 ```
 
+## Como usar
+
+Por ora, este pacote contêm somente duas funções. Uma para baixar a tabela de decisões de uma comarca com base na data, outra para parsear os dados dessa tabela e ao mesmo tempo extrair as urls dos pdfs.  Isso é suficiente para baixar as sentenças judiciais. 
+Além disso, há um dataset contendo as comarcas e os respectivos ids, os quais devem ser usados na função `tjpr_baixar_dados_cjpg`
+
+Consulte a documentação para ajuda sobre como usar as funções.
+
+
+
