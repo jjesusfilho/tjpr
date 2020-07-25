@@ -31,3 +31,5 @@ Imports:
     progress
 URL: https://github.com/jjesusfilho/tjpr
 BugReports: https://github.com/jjesusfilho/tjpr/issues
+Depends: 
+    R (>= 2.10)
